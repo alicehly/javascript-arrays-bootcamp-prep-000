@@ -41,5 +41,5 @@ function removeElementFromBeginningOfArray(array) {
 }
 
 function destructivelyRemoveElemetFromEndOfArray(array){
-  return array.slice(-1);
+  return array.slice(-n);
 }
