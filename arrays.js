@@ -57,5 +57,5 @@ function destructivelyRemoveElementFromEndOfArray(array) {
 }
 
 function destructivelyRemoveElementFromEndOfArray(array) {
-  
+  return array.unshift();
 }
