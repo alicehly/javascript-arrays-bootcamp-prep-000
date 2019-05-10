@@ -31,4 +31,6 @@ function addElementToEndOfArray(array, element) {
   return [...array, element]
 }
 
-
+function desctructivelyRemoveElementFromBeginningOfArray(array) {
+  array.shift
+}
